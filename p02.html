@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>colby lamson-gordon | CC Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <nav></nav>
+
+    <!-- main content -->
+    <main>
+      <!-- 1. give your project  a titile -->
+
+      <h1>Project #2: Form Generator</h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <!-- below width and height refers to the dimensions of your sketch-->
+
+      <iframe
+        allow="camera"
+        width="38%"
+        height="20%"
+        style="aspect-ratio: 1/1"
+        frameborder="0"
+        src="https://editor.p5js.org/colbylg/full/QLRIVJc1I"
+      ></iframe>
+
+      <!-- 3. write a short description to describe what the work is about -->
+      <h1>Description</h1>
+
+      <p>An interactive Cool Cat! Are you cool, too?</p>
+
+      <!-- 4. reflection -->
+      <h1>Design Process</h1>
+
+      <p>
+        After drawing my sketches, I began to write all the pseudocode for the
+        cat eyes/nose/ears. I noted some parts of ideas for interaction, like
+        using random colors for the face/ears fill, but wanted to establish my
+        form first. During my coding, I was reminded of the sequential
+        execution: I needed to draw the whites of the eyes first, and then the
+        black irises. After finishing this cat form, I moved on to how I wanted
+        to incorporate interaction with mouseX, mouseY, and mousePress.
+      </p>
+
+      <p>
+        I initially wanted a mousePress to trigger a change in position of
+        whiskers. But then I created text based on the location of mouseX and
+        mouseY positions, and I realized that I could say a new message when the
+        mouse was pressed. At first, I wanted the text to replace the initial
+        text but found it was simpler to move the mousePress text to a new
+        position. It was really hard to see to the point I thought my code
+        wasn't working. However, I then realized that it was appearing upon the
+        click of a mouse but it was flashing too quickly. So, I decided to slow
+        down the frame rate when the mouse was pressed. It became a cool freeze
+        frame and a more digestible way of experiencing the interaction. Lastly,
+        because the mousePress text enthusiastically answers the question asked
+        "are you a cool cat," I wanted the cat to reflect it. So, I adjusted the
+        arcs to make a smile. I was stumped at first in adjusting the right hand
+        side of the mouth-- I opened a separate file to play with the paramters,
+        and realized that because the arc bends in the opposite direction, I
+        needed to subtract some radians (rather than add) to achieve a smile.
+        After solving that last problem, I realized I had everything I needed!
+      </p>
+
+      <div class="fullwidth">
+        <img width="45%" height="10%" src=
+        https://cdn.glitch.global/f1379416-af2f-438a-9b9b-69cc9d213cb9/IMG_6166.jpeg?v=1695088823968
+        />
+      </div>
+
+      <p></p>
+
+      <!-- 4. reflection -->
+      <h1>Reflection</h1>
+
+      <p>
+        In reflection, I think it was meaningful and fun to make an interactive
+        graphic. The form of the cat changed by selecting different colors--one
+        thing I discovered is that the cats almost seem to have different
+        emotions with each color. For example, the tan cat feels chill whereas a
+        neon blue or pink cat feels like a party cat. One discovery (not
+        pre-planned) was that it was fun to physically change the cat's
+        expression, by making it smile. I think it was fun using a combination
+        of mouseX/mouseY, and the relative position of mouseX/mouseY, in
+        addition to mousePress to create interaction.
+      </p>
+    </main>
+  </body>
+</html>
